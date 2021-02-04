@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;400;700;ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/Style.css">
     <title>Test Project</title>
 </head>
 <body>
+    <!--feature products-->
  <section class="products">
      <div class="container">
          <div class="textBox textBox--mid">
@@ -16,25 +16,66 @@
              <p class="textBox__paragraph textBox__paragraph--mid">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
              <div class="textBox__line textBox__line--mid"></div>
          </div>
-         <ul class="products__nav">
+         <ul class="products__nav" id="productsNav">
              <li class="products__item products__item--active">all</li>
              <li class="products__item">print template</li>
              <li class="products__item">web template</li>
              <li class="products__item">user interface</li>
              <li class="products__item">mock-up</li>
          </ul>
-         <div class="products__gallery">
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-             <div class="products__gallery__img products__gallery__img--all"></div>
-         </div>
+         <div class="products__gallery " id="productsAll">
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+            <div class="products__gallery__img products__gallery__img--all"></div>
+        </div>
+        <div class="products__gallery products__gallery--hidden" id="productsPrint">
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+            <div class="products__gallery__img products__gallery__img--print"></div>
+        </div>
+        <div class="products__gallery products__gallery--hidden" id="productsTemplate">
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+            <div class="products__gallery__img products__gallery__img--template"></div>
+        </div>
+        <div class="products__gallery products__gallery--hidden" id="productsUi">
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+            <div class="products__gallery__img products__gallery__img--ui"></div>
+        </div>
+        <div class="products__gallery products__gallery--hidden" id="productsMockup">
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+            <div class="products__gallery__img products__gallery__img--mockup"></div>
+        </div>
      </div>
  </section>
+     <!--meet our team-->
  <section class="team">
      <div class="container">
         <div class="textBox textBox--left">
@@ -49,10 +90,10 @@
                         <h2 class="personalInfo__name" id="name">mark Waugh</h2>
                         <p class="personalInfo__about">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
                         <ul class="personalInfo__social">
-                            <li class="personalInfo__social__item">Facebook</li>
-                            <li class="personalInfo__social__item">Dribble</li>
-                            <li class="personalInfo__social__item">Behance</li>
-                            <li class="personalInfo__social__item">Twitter</li>
+                            <li class="personalInfo__social__item"><a href="#">Facebook</a></li>
+                            <li class="personalInfo__social__item"><a href="#">Dribble</a></li>
+                            <li class="personalInfo__social__item"><a href="#">Behance</a></li>
+                            <li class="personalInfo__social__item"><a href="#">Twitter</a></li>
                         </ul>
                     </div>
                     <div class="team__showcase__gallery">
